@@ -14,6 +14,7 @@ The implementation was done using a game engine “Unity 3D”.
 
  
 2 Elements 
+
 2.1 Car Simulator The Car simulator is a simple simulator with basic functions. 
 • Accelerate / Decelerate • Turn Left/ Turn Right 
 With this function, is enough to control the car. The car has 5 sensors in different angles to measure several distances to obstacles. 
@@ -21,6 +22,7 @@ All the cars race in the same race circuit at the same time.
 
  
 2.2 The hybridization 
+
 To evolve the Neural Network has been used Neuroevolution. As we studied before we could evolve the Neural Networks in different ways, for this implementation we evolve the weights of the connections between Neurons and the Bias of each layer. 
 The Network is composed by 4 Layers, the Input Layer has 6 Neurons, the Output Layer has 2 Neurons and the Hidden Layer has 6 and 4 Neurons. 
 As Input has been used 5 front sensors that each car has plus the own speed of the car. From the Outputs we obtain two values, the first one represents the acceleration/deceleration and the second one represents the steering. 
